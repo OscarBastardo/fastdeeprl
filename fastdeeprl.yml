@@ -1,0 +1,8 @@
+name: fastdeeprl
+dependencies:
+  - python=3.9
+  - gym-all=0.21.0
+  - pip
+  - pip:
+      - jupyterlab
+      - ray[rllib]==1.11
